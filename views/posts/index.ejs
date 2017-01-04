@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Airport</title>
+</head>
+<body>
+   <h2>Search Airport</h2>
+  <div class="row">
+    <form class="col m12">
+      <div class="row">
+        <div class="input-field col m6">
+          <input placeholder="Enter Desired Airport by City Or Location" name="search" id="search" type="text" class="validate" required>
+          <button id="submitSearch" class="btn waves-effect waves-light" type="submit" name="action">submit</button>
+        </div>
+      </div>
+   </form>
+    </div>
+
+
+  <div id="SearchTitle">  </div>  
+    <table class="tablecolor"  style="width:100%" border="2px" text-align="center">
+      <tr class="header">
+        <th><h4>Name</h4></th>
+        <th><h4>City</h4></th> 
+        <th></th>
+      </tr>
+       <td> <div id="airportName">  </div> </td>
+       <td> <div id="City">  </div> </td>
+       <td> <div id="iataCode">  </div>    </td>           
+            </table>
+    </body>
+</html>
